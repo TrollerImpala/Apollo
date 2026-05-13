@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/TrollerImpala/Apollo/issues"
   },
-  "homepage": "https://github.com/TrollerImpala/Apollo#readme"
+  "homepage": "https://github.com/TrollerImpala/Apollo#readme",
+  "devDependencies": {
+    "electron": "^42.0.1"
+  }
 }
