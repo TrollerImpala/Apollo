@@ -1,0 +1,19 @@
+{
+  "name": "apollo",
+  "version": "1.0.0",
+  "description": "The Apollo music player program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrollerImpala/Apollo.git"
+  },
+  "author": "Troller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrollerImpala/Apollo/issues"
+  },
+  "homepage": "https://github.com/TrollerImpala/Apollo#readme"
+}
