@@ -2,8 +2,9 @@
   "name": "apollo",
   "version": "1.0.0",
   "description": "The Apollo music player program",
-  "main": "index.js",
+  "main": "backend/electron/main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apollo</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <canvas id="visualizer" width="500" height="500"></canvas>
-    <br>
 
-    <audio controls autoplay>
-        <source src="Babymetal - Give Me Chocolate (Custom Karaoke Video) - Deep Bench Karaoke.mp3" type="audio/mpeg">
-        <!--<source src="" type="audio/ogg">
-        <source src="" type="audio/wav">-->
-        Audio element not supported
-    </audio>
-    <div id="Controles Audio">
-        <button>Anterior</button>
-        <button>Reproducir</button>
-        <button>Pausar</button>
-        <button>Siguiente</button>
+<body>
+    <div id="vis">
+        <canvas id="visualizer"></canvas>
+    </div>
+    
+    <div id="audio_player">
+        <div id="audio_bi">
+            <audio controls autoplay>
+                <source src="Babymetal - Give Me Chocolate (Custom Karaoke Video) - Deep Bench Karaoke.mp3"
+                    type="audio/mpeg">
+                <!--<source src="" type="audio/ogg">
+                <source src="" type="audio/wav">-->
+                Audio element not supported
+            </audio>
+        </div>
+        <br>
+        <div id="Controles Audio">
+            <button>Anterior</button>
+            <button>Reproducir</button>
+            <button>Pausar</button>
+            <button>Siguiente</button>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
